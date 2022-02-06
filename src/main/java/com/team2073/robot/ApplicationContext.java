@@ -38,8 +38,8 @@ public class ApplicationContext {
     }
 
 
-    public SimpleSubsystem getSimpleSubsystem(){
-        if(simpleSubsystem == null){
+    public SimpleSubsystem getSimpleSubsystem() {
+        if (simpleSubsystem == null) {
             simpleSubsystem = new SimpleSubsystem();
         }
         return simpleSubsystem;
